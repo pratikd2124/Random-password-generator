@@ -1,4 +1,4 @@
-        main{
+main{
             margin-top: 100px;
         }
         form{
@@ -7,21 +7,47 @@
             justify-content: center;
             margin-right: auto;
             margin-left: auto;
-            padding: 10%;
-            width: 250px;
+            padding: 70px;
+            width: 260px;
+            border-radius: 7px;
             background-color: blue;
+
+        }
+        form h2{
+            display: flex;
+            justify-content: center;
+            font-family: 'Courier New', Courier, monospace;
+            
         }
         .passcode{
-            display: flex;align-items: flex-end;
-            justify-content: space-between;
-            width: 200px;
-            height: 20px;
-            background-color: aqua;
+            display: flex;
+            padding: 0px 0px;
+	        font-size: 1.5rem;
+            letter-spacing: 2px;
+            font-weight: 100;
+            background-color: rgba(230, 235, 192, 0.904);
+        }
+        .passcode #passcode{
+            padding: 7px 10px;
+            word-wrap: break-word;
+            max-width: calc(100% - 60px);
+            font-weight: 100;
+            
+        }
+        #copy{
+            width: 40px;
+            font-size: 1.5rem;
+            color: darkgreen;
+        }
+        span{
+            width: 100%;
+            border-radius: 3px;
+            font-family: 'Courier New', Courier, monospace;
         }
         form label{
             text-transform: uppercase;
-            font-size: 15px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2vh;color: white;
+            font-family:'Courier New', Courier, monospace;
             }
         .selection{
             display: flex;
@@ -33,4 +59,21 @@
         .selection input[type=checkbox]{
             transform: scale(1.5);
             float: right;
+        }
+        .selection input[type=number]{
+            width: 30px;
+            float: right;
+        }
+        #generate{
+            margin-top: 10px;
+            margin-left: 20%; margin-right: 20%;
+            padding: 10px 0px;
+            border: 1px solid white;
+            background-color: inherit;
+            border-radius: 5px;color: white;
+        }
+        #generate:hover{
+            color: black;
+            transition: 0.4s ease-in;
+            background: #fff;
         }
