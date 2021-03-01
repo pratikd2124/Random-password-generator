@@ -36,7 +36,7 @@
             }
         });
 
-        grt.addEventListener("click", function(){
+        grt.addEventListener("click", () => {
             const l = +lengthy.value;
             const n = number.checked;
             const c = char.checked;
