@@ -43,7 +43,7 @@
             const uc = uppercase.checked;
             const lc = lowercase.checked;
 
-            document.querySelector("#passcode").innerText = generatepass(lc, uc, c, n, l);
+            passcode.innerText = generatepass(lc, uc, c, n, l);
         });
 
         function generatepass(lower,upper,characters,numbers,lengthy){
