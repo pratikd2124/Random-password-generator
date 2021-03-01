@@ -21,17 +21,20 @@ main{
         }
         .passcode{
             display: flex;
-            padding: 0px 0px;
-	        font-size: 1.5rem;
+            padding: 2px 0px;
+	    font-size: 1.5rem;
             letter-spacing: 2px;
             font-weight: 100;
-            background-color: rgba(230, 235, 192, 0.904);
+            background-color: blueviolet;
         }
         .passcode #passcode{
             padding: 7px 10px;
             word-wrap: break-word;
-            max-width: calc(100% - 60px);
-            font-weight: 100;
+            color: black;
+            width: 100%;
+            font-size: 1.8vh;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
             
         }
         #copy{
