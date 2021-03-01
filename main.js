@@ -61,8 +61,8 @@
                     finalpassword += randomfnc[funcName]();
                 });
             }
-
-            return finalpassword;}
+            }
+            return finalpassword;
         }
 
         function getrandomlower(){
