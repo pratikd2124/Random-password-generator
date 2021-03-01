@@ -54,14 +54,14 @@
             if (randompasscode === 0){
                 return '';
             }
-            else{
+            
             for (let i = 0; i < lengthy; i+=randompasscode){
                 randomArray.forEach(type => {
                     const funcName = Object.keys(type)[0];
                     finalpassword += randomfnc[funcName]();
                 });
             }
-            }
+            
             return finalpassword;
         }
 
