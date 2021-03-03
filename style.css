@@ -1,4 +1,11 @@
-main{
+body{
+            background-color: rgba(0, 0, 0, 0.7);
+            background-image: url('assets/keyboard-key-success-online-39389.jpeg');
+            background-repeat: no-repeat;
+            width: 100vw;height: 100vh;
+            background-blend-mode:overlay;
+        }
+        main{
             margin-top: 100px;
         }
         form{
@@ -7,28 +14,28 @@ main{
             justify-content: center;
             margin-right: auto;
             margin-left: auto;
-            padding: 70px;
+            padding: 50px;
             width: 260px;
             border-radius: 7px;
-            background-color: blue;
+            background-image: inherit;
+            background-color: rgba(255, 255, 255, 0.35);
+            box-shadow: 2px 5px 10px 7px rgba(0, 0, 0, 0.5);
 
         }
         form h2{
-            display: flex;
-            justify-content: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             font-family: 'Courier New', Courier, monospace;
             
         }
         .passcode{
             display: flex;
-            padding: 2px 0px;
-	    font-size: 1.5rem;
+	        font-size: 1.5rem;
             letter-spacing: 2px;
             font-weight: 100;
-            background-color: blueviolet;
+            background-color: inherit;
         }
         .passcode #passcode{
-            padding: 7px 10px;
+            padding: 6px 10px;
             word-wrap: break-word;
             color: black;
             width: 100%;
@@ -40,16 +47,19 @@ main{
         #copy{
             width: 40px;
             font-size: 1.5rem;
-            color: darkgreen;
+            border-radius: 4px;
+            border: 0px solid white;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
         }
-        span{
-            width: 100%;
-            border-radius: 3px;
-            font-family: 'Courier New', Courier, monospace;
+        #copy:hover{
+            color:rgb(66, 66, 66);
         }
+        
         form label{
             text-transform: uppercase;
             font-size: 2vh;color: white;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
             font-family:'Courier New', Courier, monospace;
             }
         .selection{
@@ -62,6 +72,7 @@ main{
         .selection input[type=checkbox]{
             transform: scale(1.5);
             float: right;
+            cursor:pointer;
         }
         .selection input[type=number]{
             width: 30px;
@@ -73,10 +84,11 @@ main{
             padding: 10px 0px;
             border: 1px solid white;
             background-color: inherit;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
             border-radius: 5px;color: white;
         }
         #generate:hover{
             color: black;
-            transition: 0.4s ease-in;
+            transition: 0.3s ease-in;
             background: #fff;
         }
